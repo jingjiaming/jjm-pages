@@ -1,0 +1,42 @@
+{
+  "name": "jjm-pages",
+  "version": "0.1.0",
+  "description": "static web app workfolw",
+  "keywords": [
+    "jjm-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/jjm-pages#readme",
+  "bugs": {
+    "url": "https://github.com/zce/jjm-pages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/jjm-pages.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "jingjiaming",
+    "email": "504813218@qq.com",
+    "url": "https://github.com/jingjiaming"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
